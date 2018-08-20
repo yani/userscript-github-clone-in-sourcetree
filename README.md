@@ -3,7 +3,7 @@ Adds a "Clone in SourceTree" button to the clone dialog on GitHub.
 
 
 
-#### Installation
+### Installation
 
 Download a userscript manager for your browser:
 
@@ -15,12 +15,12 @@ Then install the script by going [here](https://github.com/yanikore/userscript-g
 
 
 
-#### Screenshot
+### Screenshot
 
 ![Screenshot](https://i.imgur.com/setVSVP.png)
 
 
 
-####License
+### License
 
 MIT
