@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GitHub - Clone to SourceTree button
-// @version      1
+// @version      1.1
 // @description  Adds a "Clone to SourceTree" button to the clone dialog on GitHub
 // @author       Yani
 // @respository  https://github.com/yanikore/userscript-github-clone-in-sourcetree
@@ -23,7 +23,7 @@
                     .removeClass('js-get-repo')
                     .text('Clone in SourceTree')
                     .attr('aria-label', $modal.find('a.get-repo-btn').attr('aria-label').replace('GitHub Desktop', 'SourceTree'))
-                    .attr('href', 'sourcetree://cloneRepo/' + $('.clone-options .js-url-field').val())
+                    .attr('href', 'sourcetree://cloneRepo/' + $('.clone-options clipboard-copy').val())
             );
         }
     });
